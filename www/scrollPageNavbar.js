@@ -1,6 +1,7 @@
 // Modfied from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
 
 document.addEventListener('DOMContentLoaded', function() {
+  
   // Select the main elements with the class 'main' or 'tab-pane' once the DOM is loaded
   // 'main' is used for a sidebar layout
   // note that document.body.scrollTop cannot be used as the document body technically speaking does not scroll 
@@ -30,4 +31,5 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
   });
+  
 });
