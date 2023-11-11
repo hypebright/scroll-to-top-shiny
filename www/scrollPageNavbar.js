@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // Get the scroll position of each main page
       const scrollPosition = item.scrollTop;
 
-      // Show or hide the scroll-to-top button based on scroll position
+      // Show or hide the scroll-to-top-button based on scroll position
       if (scrollPosition > 20) {
         document.getElementById('scroll-to-top-button').style.display = 'block';
       } else {
@@ -22,12 +22,12 @@ document.addEventListener('DOMContentLoaded', function() {
     })
   })
 
-  // Handle the click event on the scroll-to-top button
+  // Handle the click event on the scroll-to-top-button
   document.getElementById('scroll-to-top-button').addEventListener('click', function() {
     // Loop through each mainPages element in the array
     mainPages.forEach(item => {
       if (item) {
-        item.scrollTop = 0; // Scrolls each main page to the top
+        item.scrollTop = 0; // Scrolls each mainPage to the top
       }
     });
   });
