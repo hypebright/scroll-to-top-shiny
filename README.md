@@ -6,6 +6,4 @@ A solution using plain HTML, CSS and JavaScript that works in both a simple Shin
 
 # View tutorial on YouTube 🎥 
 
-🚧 Available November 14, 2023, 12:00 PM CET 🚧 
-
 [Watch the tutorial](https://youtu.be/8p0-MQp91QU) on my YouTube channel! 
